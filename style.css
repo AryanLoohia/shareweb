@@ -396,7 +396,10 @@ body {
 }
 
 .projectsItems img {
-    width: 10rem;
+   width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+
 }
 
 .projectInfo {
@@ -407,6 +410,9 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    height: 420px;
+    justify-content:space-between;
+    
 }
 
 .projectTitle {
